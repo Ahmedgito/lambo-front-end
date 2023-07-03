@@ -1,0 +1,118 @@
+body{
+    background: url('img/n.jpg') ; 
+    background-size: cover;
+}
+.left {
+    color : white;
+    position: absolute;
+    float: left;
+    top: 10px;
+    left: 34px;
+    width: 71px;
+    display: inline-block;
+ }
+ .div{
+    border: 2px solid white;
+ }
+ .left img{  
+    
+    width: 67px;
+    height: 67px;
+ }
+ .left img:hover{
+    transform: scale(1.1);
+ }
+.mid{
+    color:  white;
+    width: 385px ;
+    height : 60px;
+    display: block;
+    margin: auto;
+    top: 10px;
+}
+.right{
+    color: white;
+    float: right;
+    position: absolute;
+    right: 3px;
+    top: 22px;
+    display: inline-block;
+}
+.navbar{
+    display: inline-block;   
+}
+.navbar li{
+    
+    color: antiquewhite;
+    display: inline-block;
+    font-family: 'Barlow', sans-serif;
+font-family: 'Cantarell', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar li a{
+    transform: scale(1.1);
+    color: white;
+    padding: 9px;
+    text-decoration: none;
+}
+
+.navbar li a:hover, .navbar li a:active{
+    text-decoration:solid;
+    color: goldenrod;
+}
+
+.btn{
+    margin: 0px 4px;
+    padding: 2px 9px;
+    color: white ;
+    border-radius: 8px;
+    background-color: transparent;
+    cursor: pointer;
+    font-style: bold;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Cantarell', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+.btn:hover{ 
+    color: black;
+    background-color: goldenrod;
+}
+.container{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Cantarell', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    color: goldenrod;
+    margin: 139px 128px;
+    padding : 23px ;
+    width: 38%  ;
+    border-radius: 10px; 
+}
+.option input{ 
+    border-radius: 8px;
+    color: white;
+    margin: 3px; 
+    padding: 8px 40px;
+    background: transparent;
+    border: 1px solid grey;
+} 
+.sbtn{
+    margin: 0px 8px;
+    padding: 5px 21px;
+    border-radius: 8px;
+    background-color: transparent;
+    cursor: pointer;
+    font-style: bold;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+}
+.sbtn:hover{
+    font-style: bold;
+    transform: scale(1.05);
+    color: black;
+    background-color: goldenrod;
+}
+ 
+    
+  
+  
